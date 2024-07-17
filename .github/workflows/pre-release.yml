@@ -5,7 +5,7 @@
     push:
       branches:
         - master
-    workflow_call:
+    workflow_dispatch:
 
   env: 
     PYTHON_VERSION: 3.12.4
